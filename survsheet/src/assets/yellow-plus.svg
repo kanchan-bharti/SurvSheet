@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="173" height="173" viewBox="0 0 173 173">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8fc30;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_1);
+      }
+    </style>
+    <filter id="Ellipse_1" x="0" y="0" width="173" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="12" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(18 18)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -18, -18)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" class="cls-1" cx="56.5" cy="56.5" r="56.5" transform="translate(18 18)"/>
+    </g>
+    <g id="Plus" transform="translate(25 25)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="12" height="63" rx="6" transform="translate(26)"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="12" height="63" rx="6" transform="translate(63 25) rotate(90)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.no-bdr-input{
+  border: 0.25px;
+  background-color: transparent;
+}
+
+.yellow{
+  background-color:#D8FC30;
+  color: #767676;
+}
+
+input[name="file"] {
+  font-size: small;
+  color: #1f1f1f;
+}
+
+.submit{
+  width: 248px;
+  border: 1px solid grey;
+}
+
+.placeholder-white::placeholder{
+  color: white;
+
+}
+
+/*
+.file{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.label, .save{
+	cursor: pointer; 
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border:transparent;
+   background: linear-gradient(40deg, #e5f13a, #fcad02); 
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(124, 124, 124);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .2s ease-out;
+}
+
+#file-name{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}
+
+input:hover + label,
+input:focus + label {
+  transform: scale(1.02);
+}
+
+.file-name{
+  font-size: 10px;
+}
+
+*/
